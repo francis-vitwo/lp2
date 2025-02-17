@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    color: #C8A2C8;
+    color: #E9DAE9;
+    --bg-color1: #003060;
+    --bg-color2: #e0e0e0;
+    --bg-color3: #FFF;
+    --button-hover: #68BBE3;
+    --button-color: #0E86d4;
+    --text-color1: #003060;
+    --text-color2: #909090;
+    --text-color3: #000;
+    --text-color4: #FFF;
+}
+
+body {
+    font-family: "Poppins", serif;
+    color: var(--text-color4);
+    font-weight: 500;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* For most modern browsers */
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    /* For Firefox */
+    -webkit-appearance: textfield;
+    /* For Safari and Chrome */
+}
+
+/* To hide the spinners in WebKit browsers (Chrome, Edge, Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    /* Optional: Adjust layout */
+}
+
+.form-control {
+    margin: 5px;
+    border-radius: 12px;
+}
+
+/***************************************************************************************************/
+
+header {
+    background-color: var(--bg-color1);
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+header nav.navbar {
+    max-height: 55px;
+}
+
+header nav.navbar a img {
+    width: 100%;
+    height: 35px;
+    object-fit: contain;
+}
+
+header nav.navbar .navbar-collapse {
+    justify-content: space-evenly;
+}
+
+header nav.navbar .navbar-collapse .navbar-nav a {
+    color: var(--text-color4);
+    margin: 15px;
+}
+
+header nav.navbar .navbar-collapse .navbar-nav a:hover {
+    color: var(--button-hover);
+}
+
+#home .hero-section .bg-img img {
+    position: fixed;
+    padding: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    filter: brightness(0.4);
+    object-fit: contain;
+    z-index: -1;
+}
+
+#home .content {
+    display: flex;
+    position: relative;
+    top: 35px;
+    left: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home .content .details h1 {
+    margin: 20px auto;
+    font-size: 48px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+#home .content .details p {
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#home .content .head-form {
+    position: relative;
+    left: 5%;
+    width: 100%;
+    height: 530px;
+}
+
+#home .content form {
+    position: absolute;
+    width: 350px;
+    margin: 50px 0;
+    padding: 20px;
+    background: #ffffff69;
+    border: 2px solid #ffffff6e;
+    border-radius: 26px;
+}
+
+#home .content form .form-header {
+    display: flex;
+    align-items: center;
+}
+
+#home .content form .form-header h5 {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #003060;
+}
+
+#home .content form .form-header i {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: var(--bg-color1);
+}
+
+#home .content form .form-btn {
+    background: var(--bg-color1);
+    color: var(--text-color4);
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 85%;
+    margin-top: 10px;
+}
+
+#clients {
+    background: var(--bg-color2);
+    margin-top: 35px;
+}
+
+#clients .client-slide {
+    display: flex !important;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients .client-slide .slider {
+    margin: 15px;
+}
+
+#clients .client-slide .slider img {
+    width: 65%;
+    height: 85px;
+    object-fit: contain;
+}
+
+#about {
+    background: var(--bg-color3);
+    padding: 35px 0 80px;
+}
+
+#about .about-heading h3 {
+    color: var(--text-color1);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#about .video {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#about .video video {
+    height: 450px;
+    width: 500px;
+}
+
+#about .about-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about .about-content {
+    position: absolute;
+    left: 50%;
+}
+
+#about .about-content .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .card {
+    margin-right: 25px;
+    width: 300px;
+    max-height: 230px;
+    padding: 20px;
+    transition: 1s ease-in-out;
+}
+
+#about .card:hover {
+    transform: scale(1.33);
+    z-index: 1;
+}
+
+#about .card-3 {
+    position: relative;
+    top: 25px;
+    left: 25%;
+}
+
+#about .card .heading {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#about .card .body p,
+#about .card .body ul li {
+    font-size: 13px;
+    color: var(--text-color2);
+}
+
+#about .card:hover .body p,
+#about .card:hover .body ul li {
+    color: var(--text-color1);
+    font-weight: 500;
+}
