@@ -76,6 +76,17 @@ input[type="number"]::-webkit-outer-spin-button {
     border-radius: 12px;
 }
 
+/***************************************************************************************************/
+
+/**CUSTOM CSS**/
+
+.d-view {
+    display: block !important;
+}
+
+.m-view {
+    display: none !important;
+}
 
 /***************************************************************************************************/
 
@@ -482,4 +493,437 @@ header nav.navbar .navbar-collapse .navbar-nav a:hover {
 
 #industries .circle .inner-circle .back-circle img {
     width: 100%;
+}
+
+#testimonials {
+    background: var(--bg-color1);
+    padding: 40px 0px 105px;
+}
+
+#testimonials .test-heading h3 {
+    color: var(--text-color4);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+#testimonials .test-heading p {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color4);
+}
+
+#testimonials .test-slide {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0 0;
+}
+
+#testimonials .test-slide .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffffad;
+    min-width: 350px;
+    padding: 10px;
+    margin: 100px 20px 0;
+    max-height: 250px;
+    border-radius: 60px;
+}
+
+#testimonials .test-slide .card .card-head {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+}
+
+#testimonials .test-slide .card .card-head h6 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 0.4;
+    text-align: center;
+}
+
+#testimonials .test-slide .card .card-head p {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--text-color3);
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 5px;
+}
+
+#testimonials .test-slide .card .card-head img {
+    position: absolute;
+    bottom: 83%;
+    object-fit: cover;
+    width: 135px;
+    height: 135px;
+    border: 10px solid #003060;
+    border-radius: 50%;
+}
+
+#testimonials .test-slide .card .card-head .card-title {
+    position: relative;
+    top: 25px;
+}
+
+#testimonials .test-slide .card .card-body {
+    padding: 40px 20px 0;
+    height: 250px;
+}
+
+#testimonials .test-slide .card .card-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color3);
+    line-height: 1.6;
+    text-align: left;
+}
+
+#technology {
+    background: var(--bg-color2);
+    padding: 50px 0 70px;
+}
+
+#technology .tech-heading h3 {
+    color: var(--text-color1);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+#technology .tech-heading p {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color2);
+}
+
+#technology .client-slide {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#technology .slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 170px !important;
+    border: 1px solid #000;
+}
+
+#technology .slide img {
+    width: 150px;
+    height: 85px;
+    object-fit: contain;
+}
+
+#technology .slide.xero img {
+    width: 75px;
+}
+
+#pantheons.leaders {
+    background: var(--bg-color3);
+    padding: 70px 0;
+}
+
+#pantheons.leaders .leader-details {
+    position: relative;
+    margin-top: 50px;
+}
+
+#pantheons.leaders .lead-heading h3 {
+    color: var(--text-color1);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+#pantheons.leaders .lead-heading p {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color2);
+}
+
+#pantheons.leaders .leader-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: linear 0.2s;
+    z-index: 1;
+}
+
+#pantheons.leaders .leader-img img {
+    width: 80%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: ease-in-out 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#pantheons.leaders .leader-img img:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#pantheons.leaders .leader-img:hover .leader-content {
+    animation: moveDown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes moveDown {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(175px);
+    }
+}
+
+#pantheons.leaders .leader-content {
+    position: relative;
+    bottom: 10rem;
+    left: 13%;
+    z-index: -1;
+    opacity: 0;
+}
+
+#pantheons.leaders .leader-content h6 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 12px;
+    color: var(--text-color3);
+}
+
+#pantheons.leaders .leader-content p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-color2);
+    line-height: 1.5;
+}
+
+#pantheons.leaders .leader-content p i {
+    color: #003060;
+}
+
+#pantheons.hods {
+    background: var(--bg-color3);
+    padding: 0 0 100px;
+}
+
+#pantheons.hods .hods-details {
+    position: relative;
+    margin-top: 50px;
+}
+
+#pantheons.hods .hod-heading h3 {
+    color: var(--text-color1);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+#pantheons.hods .hod-heading p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color2);
+}
+
+#pantheons.hods .hods-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: linear 0.2s;
+    z-index: 1;
+}
+
+#pantheons.hods .hods-img img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: ease-in-out 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#pantheons.hods .hods-img img:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#pantheons.hods .hods-img:hover .hods-content {
+    animation: moveDown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes moveDown {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(175px);
+    }
+}
+
+
+
+#pantheons.hods .hods-content {
+    position: relative;
+    bottom: 10rem;
+    left: 13%;
+    z-index: -1;
+    opacity: 0;
+}
+
+#pantheons.hods .hods-content h6 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 12px;
+    color: var(--text-color3);
+}
+
+#pantheons.hods .hods-content p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-color2);
+    line-height: 1.5;
+}
+
+#pantheons.hods .hods-content p i {
+    color: #003060;
+}
+
+#pantheons.supervision {
+    background: var(--bg-color3);
+    padding: 0 0 100px;
+}
+
+#pantheons.supervision .supervision-details {
+    position: relative;
+    margin-top: 50px;
+}
+
+#pantheons.supervision .supervision-heading h3 {
+    color: var(--text-color1);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+#pantheons.supervision .supervision-heading p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color2);
+}
+
+#pantheons.supervision .supervision-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: linear 0.2s;
+    z-index: 1;
+}
+
+#pantheons.supervision .supervision-img img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 60px;
+    transition: ease-in-out 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#pantheons.supervision .supervision-img img:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#pantheons.supervision .supervision-img:hover .supervision-content {
+    animation: moveDown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes moveDown {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(175px);
+    }
+}
+
+#pantheons.supervision .supervision-content {
+    position: relative;
+    bottom: 10rem;
+    left: 5%;
+    z-index: -1;
+    opacity: 0;
+}
+
+#pantheons.supervision .supervision-content h6 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 12px;
+    color: var(--text-color3);
+}
+
+#pantheons.supervision .supervision-content h6 i {
+    color: #003060;
+}
+
+#gallery {
+    background: var(--bg-color1);
+    padding: 60px 0 100px;
+}
+
+#gallery .gall-heading h3 {
+    color: var(--text-color4);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+#gallery .gall-heading p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color4);
+}
+
+#gallery .images {
+    grid-template-columns: 250px 250px 250px;
+    display: grid;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery .emp-img img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
 }

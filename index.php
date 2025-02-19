@@ -4,38 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lp</title>
-    <link rel="shortcut icon" type="image/png" href="./asset/images/logo/ViTWO_Favicon.webp">
-
-    <!-- BOOTSTRAP -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <!-- Google-Fonts -->
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
-    <!-- Font-Awesome -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- SLICK CAROUSEL -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <!-- CUSTOM CSS -->
-
-    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Lp2</title>
+    <?php include './include/head.php' ?>
 </head>
 
 <body>
@@ -64,6 +34,7 @@
             </nav>
         </div>
     </header>
+
     <section id="home">
         <div class="container">
             <div class="hero-section">
@@ -396,7 +367,7 @@
                                 <h5>Retail</h5>
                             </div>
                             <div class="back-circle">
-                                <img src="./asset/images/industries/Retail Back.webp" alt="">
+                                <img src="./asset/images/industries/back" alt="">
                             </div>
                         </div>
                     </div>
@@ -417,7 +388,537 @@
         </div>
     </section>
 
-    <section id="testimonials"></section>
+    <section id="testimonials">
+        <div class="container">
+            <div class="test-heading">
+                <h3>What People Are Saying</h3>
+                <p>ViTWO has set a benchmark of Excellence in the world of Finance automation. The reviews shared by our valued clients manifest our validation.</p>
+            </div>
+            <div class="test-slide">
+                <div class="silde">
+                    <div class="card test-card-1">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/gauri-malik.webp" alt="">
+                            <div class="card-title">
+                                <h6> Gauri Malik</h6>
+                                <p>Founder, Sirohi</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>From their professionalism to their reliability, Vitwo has exceeded our
+                                expectations in every way. Thank you for being stellar CFOs to Sirohi !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-2">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Raj Pratap.png" alt="">
+                            <div class="card-title">
+                                <h6> Raj Pratap Singh</h6>
+                                <p>Owner, Raj Fabrication</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>ViTWO team is totally capable of clearing problems within a day and they
+                                are quite good with their communication skills as well as their commitment.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-3">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/310405154_5724293880987074_687731990506480993_n (1).jpg" alt="">
+                            <div class="card-title">
+                                <h6> Rajeev Agarwal</h6>
+                                <p>Operations Head, Aroka</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>I'm glad to have ViTWO as our Virtual CFO. They are good service provider.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-4">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Oiendrila-Ray.jpg" alt="">
+                            <div class="card-title">
+                                <h6> Oeindrila Ray Kapoor</h6>
+                                <p>Co-founder, Nee & Oink</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Controls, Optimisation and profound governance – to sum it up we are
+                                better financially managed. Kudos to Team ViTWO.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-5">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Tarun-Kapoor.jpg" alt="">
+                            <div class="card-title">
+                                <h6>Tarun Kapoor</h6>
+                                <p>Director, Africa Medilink Ltd.</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>ViTWO is a reputable and experienced business consultancy with
+                                commitment
+                                and expertise in fulfilling their responsibilities.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-6">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Aparna-Pendse.jpg" alt="">
+                            <div class="card-title">
+                                <h6>Aparna Pendse</h6>
+                                <p>Founder, Blue Hibiscus</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>ViTWO helped me get my records in order and prepare profit and loss as
+                                well as balance sheet.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-7">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Kanishka-Mazumdar.jpg" alt="">
+                            <div class="card-title">
+                                <h6>Kanishka Mazumdar</h6>
+                                <p>Founder, Buddha Bites</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>I am very satisfied with their knowledgeable and professional work over
+                                the past year to improve the profitability of my business.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-8">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Laxmi-Narayan-Bose.jpg" alt="">
+                            <div class="card-title">
+                                <h6>Laxmi Narayan Bose</h6>
+                                <p>Sr VP Operations,Track Four Infotech(I) Pvt. Ltd</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>An articulated MIS architecture was setup, and every month, prospected
+                                insights for business aspects and optimised scenarios.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="silde">
+                    <div class="card test-card-9">
+                        <div class="card-head">
+                            <img src="./asset/images/clients-pic/Sreela-Ray.jpg" alt="">
+                            <div class="card-title">
+                                <h6>Mrs Sreela Dey</h6>
+                                <p>Direcctor, Medicare spryness Pvt. Ltd</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Engagement started with an overview of the BTA process and gradually
+                                translated into a holistic role-encompassing optimisation.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="technology">
+        <div class="container">
+            <div class="tech-heading">
+                <h3>Technology And Integration</h3>
+                <p>ViTWO offers a wide range of plug-and-play financial solutions, tailored specifically to your business objectives</p>
+            </div>
+            <div class="client-slide">
+                <div class="slide"><img src="./asset/images/partners/8.png" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/1.webp" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/2.png" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/3.png" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/4.png" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/5.png" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/6.png" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/Microsoft Dynamics-Logo.webp" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/Oracle-Logo.webp" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/Sage-Logo.webp" alt=""></div>
+                <div class="slide xero"><img src="./asset/images/partners/Xero-Logo.webp" alt=""></div>
+                <div class="slide"><img src="./asset/images/partners/Zoho-Logo.webp" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pantheons" class="leaders">
+        <div class="container">
+            <div class="d-view">
+                <div class="lead-heading">
+                    <h3>Our Pantheons</h3>
+                    <p>At the helm of our finance operations stand the industry stalwarts with an unrivalled track record of success. Shoulder-to-shoulder! With our exceptional team, we direct an ecosystem of excellence and discipline, ensuring your business reaches its full potential.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="leader-details">
+                            <div class="leader-img">
+                                <img src="./asset/images/pantheons/leaders/Neeraj Bhuwalka.webp" alt="">
+                                <div class="leader-content">
+                                    <h6>Neeraj Bhuwalka</h6>
+                                    <p>CEO <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="leader-details right">
+                            <div class="leader-img right">
+                                <img src="./asset/images/pantheons/leaders/Laxminarayan Dutta.webp" alt="">
+                                <div class="leader-content">
+                                    <h6>Laxmi Narayan Dutta</h6>
+                                    <p>COO <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="leader-details last-img">
+                            <div class="leader-img">
+                                <img src="./asset/images/pantheons/leaders/Sathya Pramod.webp" alt="">
+                                <div class="leader-content">
+                                    <h6>Sathya Pramod</h6>
+                                    <p>Director <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-view">
+                <div class="lead-heading">
+                    <h3>Our Pantheons</h3>
+                    <p>At the helm of our finance operations stand the industry stalwarts with an unrivalled track record of success. Shoulder-to-shoulder! With our exceptional team, we direct an ecosystem of excellence and discipline, ensuring your business reaches its full potential.</p>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="leader-details">
+                            <div class="leader-img">
+                                <img src="./asset/images/pantheons/leaders/Neeraj Bhuwalka.webp" alt="">
+                                <div class="leader-content">
+                                    <h6>Neeraj Bhuwalka</h6>
+                                    <p>CEO <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="leader-details right">
+                            <div class="leader-img right">
+                                <img src="./asset/images/pantheons/leaders/Laxminarayan Dutta.webp" alt="">
+                                <div class="leader-content">
+                                    <h6>Laxmi Narayan Dutta</h6>
+                                    <p>COO <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="leader-details last-img">
+                            <div class="leader-img">
+                                <img src="./asset/images/pantheons/leaders/Sathya Pramod.webp" alt="">
+                                <div class="leader-content">
+                                    <h6>Sathya Pramod</h6>
+                                    <p>Director <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pantheons" class="hods">
+        <div class="container">
+            <div class="d-view">
+                <div class="hod-heading">
+                    <h3>Our Leaders</h3>
+                    <p>Our teams are spearheaded by industry professionals with proven expertise in their respective podiums. Together with our talented workforce, we strive to bring excellence in your finance operations.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="hods-details">
+                            <div class="hods-img">
+                                <img src="./asset/images/pantheons/hod/Alok Agrawal.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Alok Agarwal</h6>
+                                    <p>Head - Deliveries <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="hods-details right">
+                            <div class="hods-img right">
+                                <img src="./asset/images/pantheons/hod/Rohit Bajoria.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Rohit Bajoria</h6>
+                                    <p>Head - Compliances <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="hods-details last-img">
+                            <div class="hods-img">
+                                <img src="./asset/images/pantheons/hod/Ronit Ghosh.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Ronit Ghosh</h6>
+                                    <p>Head - <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="hods-details last-img">
+                            <div class="hods-img">
+                                <img src="./asset/images/pantheons/hod/Sheikh Salim Akhtar.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Sheikh Salim Akhtar</h6>
+                                    <p>Director <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-view">
+                <div class="hod-heading">
+                    <h3>Our Leaders</h3>
+                    <p>Our teams are spearheaded by industry professionals with proven expertise in their respective podiums. Together with our talented workforce, we strive to bring excellence in your finance operations.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hods-details">
+                            <div class="hods-img">
+                                <img src="./asset/images/pantheons/hod/Alok Agrawal.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Alok Agarwal</h6>
+                                    <p>Head - Deliveries <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="hods-details right">
+                            <div class="hods-img right">
+                                <img src="./asset/images/pantheons/hod/Rohit Bajoria.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Rohit Bajoria</h6>
+                                    <p>Head - Compliances <i class="fa-brands fa-linkedin"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="hods-details last-img">
+                            <div class="hods-img">
+                                <img src="./asset/images/pantheons/hod/Ronit Ghosh.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Ronit Ghosh</h6>
+                                    <p>Head - <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="hods-details last-img">
+                            <div class="hods-img">
+                                <img src="./asset/images/pantheons/hod/Sheikh Salim Akhtar.webp" alt="">
+                                <div class="hods-content">
+                                    <h6>Sheikh Salim Akhtar</h6>
+                                    <p>Director <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pantheons" class="supervision">
+        <div class="container">
+            <div class="d-view">
+                <div class="supervision-heading">
+                    <h3>Energy, Exuberance & Experience</h3>
+                    <p>Discover the faces behind ViTWO's success—where expertise, energy, and innovation come together to drive impactful solutions.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details">
+                            <div class="supervision-img">
+                                <img src="./asset/images/pantheons/supervisionaries/bachu-kumar-dey.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Bachu Kumar Dey <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details right">
+                            <div class="supervision-img right">
+                                <img src="./asset/images/pantheons/supervisionaries/rajeev-thakur.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Rajeev Thakur <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details last-img">
+                            <div class="supervision-img">
+                                <img src="./asset/images/pantheons/supervisionaries/abhijit-dhar.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Abhijit Dhar <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details last-img">
+                            <div class="supervision-img">
+                                <img src="./asset/images/pantheons/supervisionaries/abhilash-agarwal.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Abhilash Agarwal <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-view">
+                <div class="supervision-heading">
+                    <h3>Energy, Exuberance & Experience</h3>
+                    <p>Discover the faces behind ViTWO's success—where expertise, energy, and innovation come together to drive impactful solutions.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details">
+                            <div class="supervision-img">
+                                <img src="./asset/images/pantheons/supervisionaries/bachu-kumar-dey.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Bachu Kumar Dey <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details right">
+                            <div class="supervision-img right">
+                                <img src="./asset/images/pantheons/supervisionaries/rajeev-thakur.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Rajeev Thakur <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details last-img">
+                            <div class="supervision-img">
+                                <img src="./asset/images/pantheons/supervisionaries/abhijit-dhar.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Abhijit Dhar <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="supervision-details last-img">
+                            <div class="supervision-img">
+                                <img src="./asset/images/pantheons/supervisionaries/abhilash-agarwal.jpg" alt="">
+                                <div class="supervision-content">
+                                    <h6>Abhilash Agarwal <a href=""><i class="fa-brands fa-linkedin"></i></a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="d-view">
+                <div class="gall-heading">
+                    <h3>Frolics at ViTWO</h3>
+                </div>
+                <div class="images">
+                    <div class="emp-img"><img src="./asset/images/gallery/02.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/03.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/04.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/05.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/06.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/07.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/09.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/Christmas Group Pic 2.webp" alt=""></div>
+                    <div class="emp-img"><img src="./asset/images/gallery/DSC04570 copy 2.webp" alt=""></div>
+                </div>
+            </div>
+            <div class="m-view"></div>
+        </div>
+    </section>
 
     </main>
     <footer></footer>
