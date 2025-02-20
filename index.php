@@ -905,23 +905,63 @@
                     <h3>Frolics at ViTWO</h3>
                 </div>
                 <div class="images">
-                    <div class="emp-img"><img src="./asset/images/gallery/02.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/03.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/04.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/05.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/06.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/07.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/09.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/Christmas Group Pic 2.webp" alt=""></div>
-                    <div class="emp-img"><img src="./asset/images/gallery/DSC04570 copy 2.webp" alt=""></div>
+                    <div class="emp-img swar"><img src="./asset/images/gallery/02.webp" alt="">
+                        <div class="info">
+                            <h6>Sarawati Puja</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img ift"><img src="./asset/images/gallery/03.webp" alt="">
+                        <div class="info">
+                            <h6>Iftar Party</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img picn"><img src="./asset/images/gallery/04.webp" alt="">
+                        <div class="info">
+                            <h6>ViTWOrnament</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img chris"><img src="./asset/images/gallery/05.webp" alt="">
+                        <div class="info">
+                            <h6>Secret Santa 2022</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img durg"><img src="./asset/images/gallery/06.webp" alt="">
+                        <div class="info">
+                            <h6>Durga Puja</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img diw"><img src="./asset/images/gallery/07.webp" alt="">
+                        <div class="info">
+                            <h6>Diwali Celebrations 2023</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img durg-2"><img src="./asset/images/gallery/09.webp" alt="">
+                        <div class="info">
+                            <h6>Durga Puja</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img chris-2"><img src="./asset/images/gallery/Christmas Group Pic 2.webp" alt="">
+                        <div class="info">
+                            <h6>Diwali Celebrations 2024</h6>
+                        </div>
+                    </div>
+                    <div class="emp-img diw-2"><img src="./asset/images/gallery/DSC04570 copy 2.webp" alt="">
+                        <div class="info">
+                            <h6>Christmas Eve 2023</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="m-view"></div>
         </div>
     </section>
-
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="container">
+            <?php include './include/footer.php' ?>
+        </div>
+    </footer>
 
     <!-- JAVA SCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -958,34 +998,33 @@
                         <div class="row row-gap-20">
                             <div class="col-12 col-sm-12">
                                 <input
-                                    class="form-control w-100 bg-surface text-black-40 caption1 pl-16 pr-16 pt-12 pb-12 bora-8"
+                                    class="form-control"
                                     type="text" id="modalName" placeholder="Name" required />
                             </div>
                             <div class="col-12">
-                                <span class="input-group-text form-control" id="inputGroupPrepend2">+91
-                                    <input
-                                        class="w-100 bg-surface text-black-40 caption1 pl-16 pr-16 pt-12 pb-12 bora-8 ml-5"
-                                        type="number" id="modalPhone" aria-describedby="Phone" placeholder="Phone No."
-                                        required /></span>
+                                <input
+                                    class="form-control"
+                                    type="number" id="modalPhone" aria-describedby="Phone" placeholder="Phone No."
+                                    required />
                             </div>
                             <div class="col-12">
                                 <input
-                                    class="form-control w-100 bg-surface text-black-40 caption1 pl-16 pr-16 pt-12 pb-12 bora-8"
+                                    class="form-control"
                                     type="email" id="modalEmail" placeholder="Email" required />
                             </div>
                             <div class="col-12">
                                 <input
-                                    class="form-control w-100 bg-surface text-black-40 caption1 pl-16 pr-16 pt-12 pb-12 bora-8"
+                                    class="form-control"
                                     type="text" id="modalCompany" placeholder="Company Name" required />
                             </div>
                             <div class="col-12">
-                                <textarea class="w-100 bg-surface text-black-40 caption1 pl-16 pr-16 pt-12 pb-12 bora-8"
+                                <textarea
                                     name="" cols="10" rows="4" id="modalNote"
                                     placeholder="Your Questions..."></textarea>
                             </div>
                         </div>
                         <div class="button-block mt-16">
-                            <button class="button-share w-100 bg-on-white text-button text-white pl-36 pr-36 bora-48"
+                            <button class="btn"
                                 type="submit" id="modalSubmitBtn">Send
                                 Message</button>
                         </div>
